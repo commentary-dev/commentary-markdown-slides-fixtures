@@ -1,11 +1,18 @@
-# Commentary Markdown Slides Fixtures
+# Marp Slide Rendering Fixture
 
-This public repository contains stable slide-renderer fixtures for Commentary.
+This branch demonstrates Commentary's Marp preview support.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/marp`
-- `fixture/reveal`
-- `fixture/slidev`
+```text
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/<PR_NUMBER>?file=slides%2Fmarp-roadmap.md
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/<PR_NUMBER>?file=slides%2Fmarp-roadmap.md&render=marp
+```
 
-Each branch has its own README and a focused slide deck. Use read-only automation only.
+## Feature Coverage
+
+- `marp: true` frontmatter detection.
+- Theme and pagination metadata.
+- Global and local header/footer directives.
+- Speaker notes.
+- Slide navigation controls and list view toggle.
