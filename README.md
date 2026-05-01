@@ -5,8 +5,8 @@ This branch demonstrates Commentary's Slidev preview support.
 ## Manual Commentary Routes
 
 ```text
-/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/6?file=slides.md
-/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/6?file=slides.md&render=slidev
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/9?file=slides.md
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/9?file=slides.md&render=slidev
 ```
 
 ## Feature Coverage
