@@ -1,11 +1,18 @@
-# Commentary Markdown Slides Fixtures
+# Reveal.js Slide Rendering Fixture
 
-This public repository contains stable slide-renderer fixtures for Commentary.
+This branch demonstrates Commentary's Reveal.js preview support.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/marp`
-- `fixture/reveal`
-- `fixture/slidev`
+```text
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/8?file=slides%2Freveal-roadmap.md
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/8?file=slides%2Freveal-roadmap.md&render=reveal
+```
 
-Each branch has its own README and a focused slide deck. Use read-only automation only.
+## Feature Coverage
+
+- Reveal syntax detection.
+- Horizontal and vertical slide separators.
+- Slide attributes.
+- Element fragments.
+- Speaker notes.
