@@ -5,8 +5,8 @@ This branch demonstrates Commentary's Reveal.js preview support.
 ## Manual Commentary Routes
 
 ```text
-/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/5?file=slides%2Freveal-roadmap.md
-/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/5?file=slides%2Freveal-roadmap.md&render=reveal
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/8?file=slides%2Freveal-roadmap.md
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/8?file=slides%2Freveal-roadmap.md&render=reveal
 ```
 
 ## Feature Coverage
