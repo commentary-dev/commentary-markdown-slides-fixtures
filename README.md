@@ -1,11 +1,23 @@
-# Commentary Markdown Slides Fixtures
+# Slidev Slide Rendering Fixture
 
-This public repository contains stable slide-renderer fixtures for Commentary.
+This branch demonstrates Commentary's Slidev preview support.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/marp`
-- `fixture/reveal`
-- `fixture/slidev`
+```text
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/9?file=slides.md
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/9?file=slides.md&render=slidev
+```
 
-Each branch has its own README and a focused slide deck. Use read-only automation only.
+## Feature Coverage
+
+- Slidev global frontmatter.
+- Per-slide frontmatter.
+- Layout fallback.
+- Background and transition metadata.
+- Presenter notes.
+- Vue component placeholder safety.
+- Embedded PNG, source-backed SVG, and Mermaid visual review surfaces.
+- Repeated SVG occurrences with slide-specific markers.
+
+Activate visual annotation in the rendered deck, select a rectangle, and submit the normal comment composer. Use the dashboard for zoom and pan. Public viewing is read-only; writes require authentication.
