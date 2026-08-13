@@ -16,3 +16,7 @@ This branch demonstrates Commentary's Marp preview support.
 - Global and local header/footer directives.
 - Speaker notes.
 - Slide navigation controls and list view toggle.
+- Embedded PNG, source-backed SVG, and Mermaid visual review surfaces.
+- Repeated SVG occurrences with slide-specific markers.
+
+Activate visual annotation in the rendered deck, select a rectangle, and submit the normal comment composer. Use the dashboard for zoom and pan. Public viewing is read-only; writes require authentication.
