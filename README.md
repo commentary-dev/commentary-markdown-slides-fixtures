@@ -17,3 +17,7 @@ This branch demonstrates Commentary's Slidev preview support.
 - Background and transition metadata.
 - Presenter notes.
 - Vue component placeholder safety.
+- Embedded PNG, source-backed SVG, and Mermaid visual review surfaces.
+- Repeated SVG occurrences with slide-specific markers.
+
+Activate visual annotation in the rendered deck, select a rectangle, and submit the normal comment composer. Use the dashboard for zoom and pan. Public viewing is read-only; writes require authentication.
