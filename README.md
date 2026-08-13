@@ -16,3 +16,7 @@ This branch demonstrates Commentary's Reveal.js preview support.
 - Slide attributes.
 - Element fragments.
 - Speaker notes.
+- Embedded PNG, source-backed SVG, and Mermaid visual review surfaces.
+- Repeated SVG occurrences with slide-specific markers.
+
+Activate visual annotation in the rendered deck, select a rectangle, and submit the normal comment composer. Use the dashboard for zoom and pan. Public viewing is read-only; writes require authentication.

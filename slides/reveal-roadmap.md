@@ -21,6 +21,36 @@ Presenter notes should be collapsed below the slide.
 
 --
 
+# Dashboard Region
+
+Activate visual annotation and select a specific dashboard panel.
+
+![Fictional release operations dashboard](../assets/release-dashboard.png)
+
+--
+
+# Source-backed Workflow
+
+![Release review workflow with highlighted rollback path](../assets/review-workflow.svg)
+
+--
+
+# Mermaid Region
+
+```mermaid
+flowchart LR
+  Source --> Render --> Annotate --> Resolve
+  Resolve -. rollback .-> Render
+```
+
+--
+
+# Repeated Occurrence
+
+![Repeated release review workflow](../assets/review-workflow.svg)
+
+--
+
 # Vertical Child
 
 This slide verifies vertical slide labels.
