@@ -1,11 +1,22 @@
-# Commentary Markdown Slides Fixtures
+# Marp Slide Rendering Fixture
 
-This public repository contains stable slide-renderer fixtures for Commentary.
+This branch demonstrates Commentary's Marp preview support.
 
-## Fixture Branches
+## Manual Commentary Routes
 
-- `fixture/marp`
-- `fixture/reveal`
-- `fixture/slidev`
+```text
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/7?file=slides%2Fmarp-roadmap.md
+/review/github/commentary-dev/commentary-markdown-slides-fixtures/pull/7?file=slides%2Fmarp-roadmap.md&render=marp
+```
 
-Each branch has its own README and a focused slide deck. Use read-only automation only.
+## Feature Coverage
+
+- `marp: true` frontmatter detection.
+- Theme and pagination metadata.
+- Global and local header/footer directives.
+- Speaker notes.
+- Slide navigation controls and list view toggle.
+- Embedded PNG, source-backed SVG, and Mermaid visual review surfaces.
+- Repeated SVG occurrences with slide-specific markers.
+
+Activate visual annotation in the rendered deck, select a rectangle, and submit the normal comment composer. Use the dashboard for zoom and pan. Public viewing is read-only; writes require authentication.
